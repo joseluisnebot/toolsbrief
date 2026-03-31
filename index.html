@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToolsBrief — Honest Reviews of AI & Software Tools</title>
+  <meta name="description" content="Honest, up-to-date reviews and comparisons of AI and software tools. No fluff, clear verdicts. Find the right tool for your workflow." />
+  <link rel="canonical" href="https://toolsbrief.com/" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0F0F11;
+      --surface: #18181B;
+      --border: #27272A;
+      --text: #FAFAFA;
+      --muted: #A1A1AA;
+      --accent: #6366F1;
+      --accent-l: #818CF8;
+      --accent-d: #4F46E5;
+      --green: #22C55E;
+      --orange: #F97316;
+    }
+    body { font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+    a { color: inherit; text-decoration: none; }
+
+    /* NAV */
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(15,15,17,0.95); backdrop-filter: blur(8px); z-index: 50; }
+    .logo { font-size: 1.15rem; font-weight: 900; letter-spacing: -0.04em; }
+    .logo span { color: var(--accent-l); }
+    .nav-links { display: flex; gap: 1.5rem; font-size: 0.85rem; color: var(--muted); }
+    .nav-links a:hover { color: var(--text); }
+
+    /* HERO */
+    .hero { text-align: center; padding: 5rem 1.5rem 4rem; max-width: 720px; margin: 0 auto; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 0.4rem; background: rgba(99,102,241,0.15); color: var(--accent-l); font-size: 0.72rem; font-weight: 700; padding: 0.35rem 0.9rem; border-radius: 999px; border: 1px solid rgba(99,102,241,0.3); margin-bottom: 1.5rem; letter-spacing: 0.06em; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 900; line-height: 1.1; letter-spacing: -0.04em; margin-bottom: 1rem; }
+    h1 em { font-style: normal; color: var(--accent-l); }
+    .hero-sub { font-size: 1.05rem; color: var(--muted); line-height: 1.7; max-width: 520px; margin: 0 auto 2rem; }
+    .search-wrap { display: flex; gap: 0.5rem; max-width: 480px; margin: 0 auto; }
+    .search-wrap input { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.75rem 1rem; font-size: 0.9rem; color: var(--text); font-family: inherit; outline: none; }
+    .search-wrap input:focus { border-color: var(--accent); }
+    .search-wrap input::placeholder { color: var(--muted); }
+    .btn-primary { background: var(--accent); color: white; border: none; border-radius: 0.75rem; padding: 0.75rem 1.25rem; font-size: 0.88rem; font-weight: 700; cursor: pointer; font-family: inherit; white-space: nowrap; }
+    .btn-primary:hover { background: var(--accent-d); }
+
+    /* CATEGORIES */
+    .section { max-width: 1000px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .section-label { font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent-l); margin-bottom: 0.5rem; }
+    .section-title { font-size: 1.5rem; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 0.4rem; }
+    .section-sub { font-size: 0.88rem; color: var(--muted); margin-bottom: 2rem; }
+    .cats-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.75rem; }
+    .cat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 1rem; padding: 1.1rem; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+    .cat-card:hover { border-color: var(--accent); background: rgba(99,102,241,0.06); }
+    .cat-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .cat-name { font-size: 0.85rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .cat-count { font-size: 0.72rem; color: var(--muted); }
+
+    /* FEATURED */
+    .featured-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+    .tool-card { background: var(--surface); border: 1px solid var(--border); border-radius: 1.25rem; padding: 1.25rem; transition: border-color 0.15s; display: flex; flex-direction: column; gap: 0.75rem; }
+    .tool-card:hover { border-color: var(--accent); }
+    .tool-header { display: flex; align-items: center; gap: 0.75rem; }
+    .tool-icon { width: 40px; height: 40px; border-radius: 0.6rem; background: rgba(99,102,241,0.15); display: flex; align-items: center; justify-content: center; font-size: 1.2rem; flex-shrink: 0; }
+    .tool-name { font-weight: 800; font-size: 0.95rem; }
+    .tool-category { font-size: 0.7rem; color: var(--muted); }
+    .tool-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
+    .tool-footer { display: flex; align-items: center; justify-content: space-between; }
+    .tool-rating { display: flex; align-items: center; gap: 0.3rem; font-size: 0.8rem; font-weight: 700; color: var(--orange); }
+    .tool-badge { font-size: 0.68rem; font-weight: 700; padding: 0.2rem 0.55rem; border-radius: 999px; }
+    .badge-free { background: rgba(34,197,94,0.15); color: var(--green); }
+    .badge-paid { background: rgba(249,115,22,0.15); color: var(--orange); }
+    .badge-freemium { background: rgba(99,102,241,0.15); color: var(--accent-l); }
+    .read-more { font-size: 0.78rem; font-weight: 700; color: var(--accent-l); }
+    .read-more:hover { color: white; }
+
+    /* LATEST */
+    .posts-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .post-card { background: var(--surface); border: 1px solid var(--border); border-radius: 1rem; padding: 1.1rem 1.25rem; display: flex; gap: 1rem; align-items: flex-start; transition: border-color 0.15s; }
+    .post-card:hover { border-color: var(--accent); }
+    .post-type { font-size: 0.65rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.2rem 0.6rem; border-radius: 999px; white-space: nowrap; flex-shrink: 0; margin-top: 0.15rem; }
+    .type-vs { background: rgba(249,115,22,0.15); color: var(--orange); }
+    .type-review { background: rgba(99,102,241,0.15); color: var(--accent-l); }
+    .type-list { background: rgba(34,197,94,0.15); color: var(--green); }
+    .post-title { font-size: 0.92rem; font-weight: 700; line-height: 1.4; margin-bottom: 0.25rem; }
+    .post-meta { font-size: 0.72rem; color: var(--muted); }
+
+    /* NEWSLETTER */
+    .newsletter { background: rgba(99,102,241,0.08); border: 1px solid rgba(99,102,241,0.2); border-radius: 1.5rem; padding: 2.5rem; text-align: center; margin: 0 1.5rem; }
+    .newsletter h2 { font-size: 1.4rem; font-weight: 900; letter-spacing: -0.03em; margin-bottom: 0.5rem; }
+    .newsletter p { color: var(--muted); font-size: 0.88rem; margin-bottom: 1.5rem; }
+    .newsletter-form { display: flex; gap: 0.5rem; max-width: 400px; margin: 0 auto; }
+    .newsletter-form input { flex: 1; background: var(--bg); border: 1px solid var(--border); border-radius: 0.75rem; padding: 0.7rem 1rem; font-size: 0.88rem; color: var(--text); font-family: inherit; outline: none; }
+    .newsletter-form input:focus { border-color: var(--accent); }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 2rem 1.5rem; text-align: center; font-size: 0.78rem; color: var(--muted); }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+
+    @media(max-width: 600px) {
+      .nav-links { display: none; }
+      .search-wrap { flex-direction: column; }
+      .newsletter-form { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">tools<span>brief</span></div>
+  <div class="nav-links">
+    <a href="/reviews">Reviews</a>
+    <a href="/comparisons">Comparisons</a>
+    <a href="/categories">Categories</a>
+    <a href="/best-tools">Best Tools</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">✦ Honest · Updated · No fluff</div>
+  <h1>Find the right <em>tool</em><br>for your workflow</h1>
+  <p class="hero-sub">Honest reviews and comparisons of AI and software tools. Clear verdicts, updated pricing, real use cases.</p>
+  <div class="search-wrap">
+    <input type="text" placeholder="Search tools, comparisons, categories..." />
+    <button class="btn-primary">Search</button>
+  </div>
+</section>
+
+<div class="section">
+  <div class="section-label">Browse by category</div>
+  <div class="section-title">What are you looking for?</div>
+  <p class="section-sub">Reviews and comparisons organized by use case</p>
+  <div class="cats-grid">
+    <div class="cat-card"><div class="cat-icon">✍️</div><div class="cat-name">AI Writing</div><div class="cat-count">12 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">📈</div><div class="cat-name">SEO Tools</div><div class="cat-count">8 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">🗂️</div><div class="cat-name">Project Management</div><div class="cat-count">10 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">🎨</div><div class="cat-name">Design & Image</div><div class="cat-count">9 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">🎙️</div><div class="cat-name">Transcription & Audio</div><div class="cat-count">6 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">⚡</div><div class="cat-name">Automation</div><div class="cat-count">7 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">📧</div><div class="cat-name">Email Marketing</div><div class="cat-count">8 tools reviewed</div></div>
+    <div class="cat-card"><div class="cat-icon">💬</div><div class="cat-name">AI Assistants</div><div class="cat-count">11 tools reviewed</div></div>
+  </div>
+</div>
+
+<div class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-label">Featured reviews</div>
+  <div class="section-title">Top tools this month</div>
+  <p class="section-sub">Tested, compared and rated — updated March 2026</p>
+  <div class="featured-grid">
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">✍️</div>
+        <div><div class="tool-name">Jasper AI</div><div class="tool-category">AI Writing</div></div>
+      </div>
+      <div class="tool-desc">The most powerful AI writing assistant for marketing teams. Long-form content, brand voice, and SEO mode built in.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.3 / 5</div>
+        <span class="tool-badge badge-paid">From $49/mo</span>
+      </div>
+      <a href="/reviews/jasper-ai" class="read-more">Read full review →</a>
+    </div>
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">📈</div>
+        <div><div class="tool-name">Surfer SEO</div><div class="tool-category">SEO Tools</div></div>
+      </div>
+      <div class="tool-desc">Content optimization tool that tells you exactly what to write to rank on Google. Best for content teams and bloggers.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.5 / 5</div>
+        <span class="tool-badge badge-paid">From $89/mo</span>
+      </div>
+      <a href="/reviews/surfer-seo" class="read-more">Read full review →</a>
+    </div>
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">⚡</div>
+        <div><div class="tool-name">Make.com</div><div class="tool-category">Automation</div></div>
+      </div>
+      <div class="tool-desc">Visual automation platform. More powerful than Zapier for complex workflows, significantly cheaper at scale.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.6 / 5</div>
+        <span class="tool-badge badge-freemium">Free plan available</span>
+      </div>
+      <a href="/reviews/make-com" class="read-more">Read full review →</a>
+    </div>
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">🗂️</div>
+        <div><div class="tool-name">ClickUp</div><div class="tool-category">Project Management</div></div>
+      </div>
+      <div class="tool-desc">All-in-one project management for teams of all sizes. Steeper learning curve but unmatched flexibility.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.2 / 5</div>
+        <span class="tool-badge badge-freemium">Free plan available</span>
+      </div>
+      <a href="/reviews/clickup" class="read-more">Read full review →</a>
+    </div>
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">🎙️</div>
+        <div><div class="tool-name">Otter.ai</div><div class="tool-category">Transcription</div></div>
+      </div>
+      <div class="tool-desc">Real-time meeting transcription with AI summaries. Best free tier in the transcription space.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.1 / 5</div>
+        <span class="tool-badge badge-freemium">Free plan available</span>
+      </div>
+      <a href="/reviews/otter-ai" class="read-more">Read full review →</a>
+    </div>
+    <div class="tool-card">
+      <div class="tool-header">
+        <div class="tool-icon">🎨</div>
+        <div><div class="tool-name">Canva</div><div class="tool-category">Design</div></div>
+      </div>
+      <div class="tool-desc">The go-to design tool for non-designers. AI features, templates for everything, and a generous free tier.</div>
+      <div class="tool-footer">
+        <div class="tool-rating">★ 4.7 / 5</div>
+        <span class="tool-badge badge-freemium">Free plan available</span>
+      </div>
+      <a href="/reviews/canva" class="read-more">Read full review →</a>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="border-top: 1px solid var(--border);">
+  <div class="section-label">Latest content</div>
+  <div class="section-title">Fresh reviews & comparisons</div>
+  <p class="section-sub">Published and updated regularly — always with a clear verdict</p>
+  <div class="posts-list">
+    <a href="/comparisons/jasper-vs-copy-ai" class="post-card">
+      <span class="post-type type-vs">VS</span>
+      <div>
+        <div class="post-title">Jasper AI vs Copy.ai (2026): Which AI Writer Is Actually Worth It?</div>
+        <div class="post-meta">Updated March 2026 · 8 min read · AI Writing</div>
+      </div>
+    </a>
+    <a href="/best-tools/ai-tools-for-freelancers" class="post-card">
+      <span class="post-type type-list">LIST</span>
+      <div>
+        <div class="post-title">7 Best AI Tools for Freelancers in 2026 (Tested on Real Projects)</div>
+        <div class="post-meta">Updated March 2026 · 12 min read · Productivity</div>
+      </div>
+    </a>
+    <a href="/comparisons/make-vs-zapier" class="post-card">
+      <span class="post-type type-vs">VS</span>
+      <div>
+        <div class="post-title">Make.com vs Zapier: Honest Pricing & Feature Comparison</div>
+        <div class="post-meta">Updated March 2026 · 10 min read · Automation</div>
+      </div>
+    </a>
+    <a href="/reviews/surfer-seo" class="post-card">
+      <span class="post-type type-review">REVIEW</span>
+      <div>
+        <div class="post-title">Surfer SEO Review: I Used It for 60 Days. Here's the Truth.</div>
+        <div class="post-meta">Updated March 2026 · 15 min read · SEO</div>
+      </div>
+    </a>
+    <a href="/best-tools/project-management-for-solopreneurs" class="post-card">
+      <span class="post-type type-list">LIST</span>
+      <div>
+        <div class="post-title">Best Project Management Tools for Solopreneurs (No Team Required)</div>
+        <div class="post-meta">Updated March 2026 · 9 min read · Project Management</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div style="max-width:1000px;margin:0 auto;padding:0 0 3rem;">
+  <div class="newsletter">
+    <h2>New tool worth your time?<br>We'll tell you first.</h2>
+    <p>Weekly digest of the best new AI and software tools. Honest take, no hype, unsubscribe anytime.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="your@email.com" />
+      <button class="btn-primary">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div style="margin-bottom:0.75rem;">
+    <strong style="color:var(--text)">toolsbrief.com</strong> — Honest reviews of AI & software tools
+  </div>
+  <div style="display:flex;gap:1.5rem;justify-content:center;margin-bottom:0.75rem;">
+    <a href="/reviews">Reviews</a>
+    <a href="/comparisons">Comparisons</a>
+    <a href="/best-tools">Best Tools</a>
+    <a href="/about">About</a>
+    <a href="/privacy">Privacy</a>
+    <a href="/affiliate-disclosure">Affiliate Disclosure</a>
+  </div>
+  <div>Some links on this site are affiliate links. We may earn a commission at no extra cost to you. <a href="/affiliate-disclosure">Learn more</a>.</div>
+</footer>
+
+</body>
+</html>
