@@ -19,4 +19,7 @@
   <url><loc>https://toolsbrief.com/about</loc><priority>0.5</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://toolsbrief.com/privacy</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
   <url><loc>https://toolsbrief.com/affiliate-disclosure</loc><priority>0.3</priority><changefreq>yearly</changefreq></url>
+  <url><loc>https://toolsbrief.com/reviews/notion-ai</loc><priority>0.9</priority><changefreq>monthly</changefreq><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://toolsbrief.com/reviews/perplexity-ai</loc><priority>0.9</priority><changefreq>monthly</changefreq><lastmod>2026-05-18</lastmod></url>
+  <url><loc>https://toolsbrief.com/reviews/midjourney</loc><priority>0.9</priority><changefreq>monthly</changefreq><lastmod>2026-05-18</lastmod></url>
 </urlset>
