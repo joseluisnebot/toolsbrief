@@ -8,27 +8,9 @@
     "price_note": "Add-on to any Notion plan",
     "affiliate_url": "https://notion.so",
     "rating": 4.2,
-    "ratings_breakdown": {
-      "Output Quality": 4.0,
-      "Ease of Use": 4.8,
-      "Features": 3.9,
-      "Value for Money": 4.1,
-      "Integration": 4.5
-    },
-    "pros": [
-      "Seamlessly integrated into your existing Notion workspace",
-      "Autofill tables and databases with AI",
-      "Summarize and translate pages instantly",
-      "Very easy to use — no prompt engineering needed",
-      "Reasonable $10/month add-on price"
-    ],
-    "cons": [
-      "AI quality lags behind dedicated writing tools",
-      "No standalone product — requires Notion subscription",
-      "Limited customization vs ChatGPT or Claude",
-      "Context window limitations on long documents",
-      "No image generation"
-    ],
+    "ratings_breakdown": {"Output Quality": 4.0, "Ease of Use": 4.8, "Features": 3.9, "Value for Money": 4.1, "Integration": 4.5},
+    "pros": ["Seamlessly integrated into your existing Notion workspace","Autofill tables and databases with AI","Summarize and translate pages instantly","Very easy to use — no prompt engineering needed","Reasonable $10/month add-on price"],
+    "cons": ["AI quality lags behind dedicated writing tools","No standalone product — requires Notion subscription","Limited customization vs ChatGPT or Claude","Context window limitations on long documents","No image generation"],
     "pricing_plans": [
       {"name": "Free", "price": "$0", "features": "20 AI responses/month, basic Notion features"},
       {"name": "Plus + AI", "price": "$18/mo", "features": "Unlimited AI, unlimited pages, 30-day history"},
@@ -38,17 +20,17 @@
       {"icon": "✍️", "name": "AI Writing Assistant", "desc": "Write, edit, summarize, and improve text directly inside any Notion page without switching tools."},
       {"icon": "📊", "name": "Autofill Databases", "desc": "Automatically populate database fields using AI — summarize meeting notes into action items, extract key data, categorize entries."},
       {"icon": "🌍", "name": "Translate & Summarize", "desc": "Translate pages into 15+ languages or get instant summaries of long documents, perfect for global teams."},
-      {"icon": "🔗", "name": "Q&A Across Workspace", "desc": "Ask questions about your entire Notion workspace and get AI-powered answers with source citations — like ChatGPT but for your own knowledge base."},
-      {"icon": "📝", "name": "Templates & Prompts", "desc": "Built-in AI templates for meeting agendas, project plans, job descriptions, and more. Reduces blank-page anxiety significantly."},
+      {"icon": "🔗", "name": "Q&A Across Workspace", "desc": "Ask questions about your entire Notion workspace and get AI-powered answers with source citations."},
+      {"icon": "📝", "name": "Templates & Prompts", "desc": "Built-in AI templates for meeting agendas, project plans, job descriptions, and more."},
       {"icon": "🔄", "name": "Action Items Extraction", "desc": "Paste meeting notes and Notion AI automatically extracts action items, owners, and deadlines into a structured list."}
     ],
     "best_for": [
-      {"emoji": "✅", "type": "Existing Notion users", "desc": "If you already use Notion daily, the $10/month AI add-on is a no-brainer. The integration is seamless and it genuinely speeds up repetitive tasks like summarizing notes and drafting documents."},
-      {"emoji": "✅", "type": "Teams using Notion as a wiki", "desc": "The Q&A feature — which lets you ask questions across your entire workspace — is genuinely useful for teams with large knowledge bases. It's like having a search engine that understands context."},
-      {"emoji": "❌", "type": "Dedicated AI writers", "desc": "If your primary use case is high-volume content creation or advanced AI writing, tools like Jasper or even Claude.ai offer significantly better output quality at a similar price point."}
+      {"emoji": "✅", "type": "Existing Notion users", "desc": "If you already use Notion daily, the $10/month AI add-on is a no-brainer. The integration is seamless and it genuinely speeds up repetitive tasks."},
+      {"emoji": "✅", "type": "Teams using Notion as a wiki", "desc": "The Q&A feature lets you ask questions across your entire workspace — genuinely useful for teams with large knowledge bases."},
+      {"emoji": "❌", "type": "Dedicated AI writers", "desc": "If your primary use case is high-volume content creation, tools like Jasper or Claude.ai offer significantly better output quality."}
     ],
     "verdict_title": "Notion AI: The Best AI Tool You Already Have",
-    "verdict_text": "Notion AI's biggest advantage is also its obvious limitation: it only works inside Notion. If you live in Notion — and many teams do — this is an exceptional value add. The autofill database feature alone saves hours per week for operations and project management teams. The Q&A across your workspace is genuinely impressive for knowledge management use cases. The AI writing quality? It's good but not great. For short-form content, summaries, and action item extraction it performs well. For long-form content or nuanced copywriting, you'll want to use Claude or ChatGPT and paste the result in. At $10/month as an add-on, it's easy to recommend to any Notion power user. Don't buy Notion just for the AI — but if you're already paying for Notion, there's no reason not to add it."
+    "verdict_text": "Notion AI's biggest advantage is also its obvious limitation: it only works inside Notion. If you live in Notion — and many teams do — this is an exceptional value add. The autofill database feature alone saves hours per week for operations and project management teams. The Q&A across your workspace is genuinely impressive for knowledge management use cases. The AI writing quality is good but not great. For short-form content, summaries, and action item extraction it performs well. For long-form content or nuanced copywriting, you'll want to use Claude or ChatGPT and paste the result in. At $10/month as an add-on, it's easy to recommend to any Notion power user."
   },
   {
     "slug": "perplexity-ai",
@@ -59,46 +41,28 @@
     "price_note": "Free tier available",
     "affiliate_url": "https://perplexity.ai",
     "rating": 4.5,
-    "ratings_breakdown": {
-      "Answer Quality": 4.6,
-      "Source Citations": 4.8,
-      "Ease of Use": 4.5,
-      "Value for Money": 4.3,
-      "Speed": 4.4
-    },
-    "pros": [
-      "Every answer includes cited sources — game changer for research",
-      "Real-time web access by default",
-      "Free tier is genuinely useful",
-      "Perplexity Pages for publishing research",
-      "Excellent for technical and academic queries"
-    ],
-    "cons": [
-      "Pro plan is $20/month — same as ChatGPT Plus",
-      "Can't generate images on free tier",
-      "Less useful for creative writing tasks",
-      "Occasionally cites paywalled sources",
-      "No memory/context across sessions on free"
-    ],
+    "ratings_breakdown": {"Answer Quality": 4.6, "Source Citations": 4.8, "Ease of Use": 4.5, "Value for Money": 4.3, "Speed": 4.4},
+    "pros": ["Every answer includes cited sources — game changer for research","Real-time web access by default","Free tier is genuinely useful","Perplexity Pages for publishing research","Excellent for technical and academic queries"],
+    "cons": ["Pro plan is $20/month — same as ChatGPT Plus","Can't generate images on free tier","Less useful for creative writing tasks","Occasionally cites paywalled sources","No memory/context across sessions on free"],
     "pricing_plans": [
       {"name": "Free", "price": "$0", "features": "Unlimited quick searches, 5 Pro searches/day, GPT-4o & Claude access (limited)"},
       {"name": "Pro", "price": "$20/mo", "features": "Unlimited Pro searches, image generation, file upload, API credits, $5/month included"}
     ],
     "features": [
-      {"icon": "🔍", "name": "Cited Answers", "desc": "Every response includes numbered citations linking to the exact sources used. No more wondering where the AI got its information."},
-      {"icon": "🌐", "name": "Real-Time Web Access", "desc": "Unlike ChatGPT's knowledge cutoff, Perplexity searches the web in real time for every query. Prices, recent news, current events — all up to date."},
-      {"icon": "📄", "name": "Perplexity Pages", "desc": "Turn your research into a shareable, well-formatted page — like a mini Wikipedia article. Useful for sharing research with colleagues or clients."},
+      {"icon": "🔍", "name": "Cited Answers", "desc": "Every response includes numbered citations linking to the exact sources used."},
+      {"icon": "🌐", "name": "Real-Time Web Access", "desc": "Unlike ChatGPT's knowledge cutoff, Perplexity searches the web in real time for every query."},
+      {"icon": "📄", "name": "Perplexity Pages", "desc": "Turn your research into a shareable, well-formatted page — like a mini Wikipedia article."},
       {"icon": "📁", "name": "File Upload & Analysis", "desc": "Upload PDFs, CSVs, and images for analysis. Ask questions about your documents and get cited answers."},
-      {"icon": "🤖", "name": "Multiple AI Models", "desc": "Switch between GPT-4o, Claude 3.5 Sonnet, and Perplexity's own models depending on your task. Pro users get access to all."},
-      {"icon": "🔬", "name": "Focus Modes", "desc": "Search specifically within Academic papers, Reddit, YouTube, or news sources. Academic mode alone makes it worth it for researchers."}
+      {"icon": "🤖", "name": "Multiple AI Models", "desc": "Switch between GPT-4o, Claude 3.5 Sonnet, and Perplexity's own models depending on your task."},
+      {"icon": "🔬", "name": "Focus Modes", "desc": "Search specifically within Academic papers, Reddit, YouTube, or news sources."}
     ],
     "best_for": [
-      {"emoji": "✅", "type": "Researchers and students", "desc": "The Academic focus mode and automatic source citations make Perplexity the best AI tool for research tasks. It's significantly better than ChatGPT for anything that requires up-to-date, verifiable information."},
-      {"emoji": "✅", "type": "Professionals who need cited information", "desc": "Lawyers, journalists, consultants — anyone who needs to back up claims with sources will find Perplexity invaluable. The citation quality is genuinely impressive."},
-      {"emoji": "❌", "type": "Creative writers and content creators", "desc": "Perplexity is built for information retrieval, not creative output. For writing blog posts, marketing copy, or long-form content, Claude or Jasper will serve you better."}
+      {"emoji": "✅", "type": "Researchers and students", "desc": "The Academic focus mode and automatic source citations make Perplexity the best AI tool for research tasks."},
+      {"emoji": "✅", "type": "Professionals who need cited information", "desc": "Lawyers, journalists, consultants — anyone who needs to back up claims with sources will find Perplexity invaluable."},
+      {"emoji": "❌", "type": "Creative writers and content creators", "desc": "Perplexity is built for information retrieval, not creative output. For writing blog posts or marketing copy, Claude or Jasper will serve you better."}
     ],
     "verdict_title": "Perplexity AI: The Best AI Search Tool Available",
-    "verdict_text": "Perplexity AI has carved out a unique position in the crowded AI tools market by focusing on what most AI assistants get wrong: verifiability. Every answer comes with sources, which transforms it from a confidence machine into an actual research tool. The free tier is surprisingly capable — 5 Pro searches per day is enough for casual research needs. The Pro plan at $20/month is competitive with ChatGPT Plus but targets a different use case entirely. If you need current information, cited sources, or academic research, Perplexity is the best tool available. If you need creative writing or code generation, look elsewhere. For anyone who uses Google Search for research — and replaces it with AI — Perplexity is the upgrade worth paying for."
+    "verdict_text": "Perplexity AI has carved out a unique position by focusing on what most AI assistants get wrong: verifiability. Every answer comes with sources, which transforms it from a confidence machine into an actual research tool. The free tier is surprisingly capable — 5 Pro searches per day is enough for casual research needs. If you need current information, cited sources, or academic research, Perplexity is the best tool available. If you need creative writing or code generation, look elsewhere."
   },
   {
     "slug": "midjourney",
@@ -109,46 +73,259 @@
     "price_note": "No free tier currently",
     "affiliate_url": "https://midjourney.com",
     "rating": 4.6,
-    "ratings_breakdown": {
-      "Image Quality": 4.9,
-      "Artistic Style": 4.8,
-      "Ease of Use": 3.8,
-      "Value for Money": 4.3,
-      "Speed": 3.9
-    },
-    "pros": [
-      "Best aesthetic image quality of any AI generator",
-      "Exceptional at artistic and cinematic styles",
-      "Active community with prompt inspiration",
-      "Fast iteration with variations and upscaling",
-      "Consistent style across generations"
-    ],
-    "cons": [
-      "No free tier — $10/month minimum",
-      "Runs inside Discord (awkward for professionals)",
-      "Less control than Stable Diffusion",
-      "Struggles with text in images",
-      "Limited image editing capabilities"
-    ],
+    "ratings_breakdown": {"Image Quality": 4.9, "Artistic Style": 4.8, "Ease of Use": 3.8, "Value for Money": 4.3, "Speed": 3.9},
+    "pros": ["Best aesthetic image quality of any AI generator","Exceptional at artistic and cinematic styles","Active community with prompt inspiration","Fast iteration with variations and upscaling","Consistent style across generations"],
+    "cons": ["No free tier — $10/month minimum","Runs inside Discord (awkward for professionals)","Less control than Stable Diffusion","Struggles with text in images","Limited image editing capabilities"],
     "pricing_plans": [
       {"name": "Basic", "price": "$10/mo", "features": "~200 images/month (fast), general commercial license"},
       {"name": "Standard", "price": "$30/mo", "features": "Unlimited relaxed generations, 15h fast GPU time"},
       {"name": "Pro", "price": "$60/mo", "features": "Stealth mode, 30h fast GPU, 12 concurrent jobs"}
     ],
     "features": [
-      {"icon": "🎨", "name": "Unmatched Aesthetic Quality", "desc": "Midjourney's v6 model produces images with a distinctive painterly, cinematic quality that other tools simply can't replicate. For artistic and marketing visuals, it's in a class of its own."},
-      {"icon": "🎭", "name": "Style Consistency", "desc": "Use --sref (style reference) to maintain consistent visual style across multiple images — essential for brand identity work or illustration series."},
-      {"icon": "🖼️", "name": "Variations & Upscaling", "desc": "Generate 4 variations of any prompt, then upscale your favourite to print-quality resolution. The iteration workflow is fast and intuitive once you learn the commands."},
-      {"icon": "👤", "name": "Character Reference", "desc": "Use --cref to maintain character consistency across different scenes and prompts — a breakthrough feature for illustrators and game designers."},
-      {"icon": "📐", "name": "Aspect Ratio Control", "desc": "Generate images in any aspect ratio — portrait, landscape, widescreen, square — with simple --ar parameter. Essential for platform-specific content."},
-      {"icon": "🌐", "name": "Web Interface", "desc": "Midjourney now has a web app (alpha) alongside Discord. Still limited but growing — finally a proper interface without Discord's clutter."}
+      {"icon": "🎨", "name": "Unmatched Aesthetic Quality", "desc": "Midjourney's v6 model produces images with a distinctive painterly, cinematic quality that other tools simply can't replicate."},
+      {"icon": "🎭", "name": "Style Consistency", "desc": "Use --sref (style reference) to maintain consistent visual style across multiple images."},
+      {"icon": "🖼️", "name": "Variations & Upscaling", "desc": "Generate 4 variations of any prompt, then upscale your favourite to print-quality resolution."},
+      {"icon": "👤", "name": "Character Reference", "desc": "Use --cref to maintain character consistency across different scenes and prompts."},
+      {"icon": "📐", "name": "Aspect Ratio Control", "desc": "Generate images in any aspect ratio with simple --ar parameter."},
+      {"icon": "🌐", "name": "Web Interface", "desc": "Midjourney now has a web app (alpha) alongside Discord — finally a proper interface without Discord's clutter."}
     ],
     "best_for": [
-      {"emoji": "✅", "type": "Designers and creative professionals", "desc": "Midjourney's aesthetic quality is unmatched for concept art, brand imagery, marketing visuals, and illustration. If visual quality is the priority, there's no competition."},
-      {"emoji": "✅", "type": "Social media and content creators", "desc": "Creating unique, eye-catching visuals for social media is where Midjourney shines. The consistent quality means less time editing and more time publishing."},
-      {"emoji": "❌", "type": "Users needing precise control", "desc": "If you need exact composition control, text-in-image, or photorealistic product shots with specific requirements, DALL-E 3 or Stable Diffusion will frustrate you less."}
+      {"emoji": "✅", "type": "Designers and creative professionals", "desc": "Midjourney's aesthetic quality is unmatched for concept art, brand imagery, and marketing visuals."},
+      {"emoji": "✅", "type": "Social media and content creators", "desc": "Creating unique, eye-catching visuals for social media is where Midjourney shines."},
+      {"emoji": "❌", "type": "Users needing precise control", "desc": "If you need exact composition control or text rendered accurately in images, DALL-E 3 or Stable Diffusion will frustrate you less."}
     ],
     "verdict_title": "Midjourney: Still the King of AI Image Quality",
-    "verdict_text": "Two years after its launch, Midjourney remains the gold standard for AI-generated images when aesthetic quality matters. No other tool — not DALL-E 3, not Stable Diffusion, not Adobe Firefly — produces images with the same painterly depth and artistic coherence. The Discord interface is its biggest weakness, but the web app is improving. At $10/month for the Basic plan, it's accessible. At $30/month for Standard with unlimited relaxed generations, it's genuinely good value for designers who use it daily. The main reason to look elsewhere: if you need precise control over composition, photorealistic product photos, or text rendered accurately in images, Midjourney will frustrate you. But for creative, artistic, or atmospheric imagery — social media visuals, concept art, marketing imagery — Midjourney remains the best tool available."
+    "verdict_text": "Two years after its launch, Midjourney remains the gold standard for AI-generated images when aesthetic quality matters. No other tool produces images with the same painterly depth and artistic coherence. At $10/month for the Basic plan, it's accessible. At $30/month for Standard with unlimited relaxed generations, it's genuinely good value for designers who use it daily. For creative, artistic, or atmospheric imagery — social media visuals, concept art, marketing imagery — Midjourney remains the best tool available."
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "category": "AI Writing",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$12/month",
+    "price_note": "Free tier available, Premium from $12/mo (annual)",
+    "affiliate_url": "https://grammarly.com",
+    "rating": 4.4,
+    "ratings_breakdown": {"Grammar Accuracy": 4.8, "Ease of Use": 4.9, "Writing Suggestions": 4.3, "Value for Money": 4.0, "Integrations": 4.5},
+    "pros": ["Works everywhere — browser, Word, Google Docs, email","Best-in-class grammar and spelling detection","Tone and clarity suggestions go beyond basic checking","Free tier is genuinely useful for daily writing","Plagiarism checker included in Premium"],
+    "cons": ["Premium is expensive at $30/month (monthly billing)","AI suggestions can feel generic or overly cautious","Rewrites sometimes change the author's voice","Full features require browser extension","Business plan required for team features"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "Basic grammar and spelling, 100 AI prompts/month"},
+      {"name": "Premium", "price": "$30/mo ($12/mo annual)", "features": "Advanced suggestions, tone detection, clarity rewrites, plagiarism checker, unlimited AI"},
+      {"name": "Business", "price": "$15/user/mo (annual)", "features": "Team dashboard, style guides, brand tones, analytics"}
+    ],
+    "features": [
+      {"icon": "✅", "name": "Real-Time Grammar Checking", "desc": "Catches grammar, spelling, punctuation, and style issues as you type — across virtually every platform you write on."},
+      {"icon": "🎯", "name": "Tone Detection", "desc": "Analyses the emotional tone of your writing and suggests adjustments. Particularly useful for business emails where tone matters enormously."},
+      {"icon": "✍️", "name": "Full Sentence Rewrites", "desc": "Suggests complete rewrites for unclear or wordy sentences. Hit accept and move on — saves significant editing time."},
+      {"icon": "🔍", "name": "Plagiarism Checker", "desc": "Compares your text against billions of web pages. Included in Premium — useful for content creators, students, and anyone publishing online."},
+      {"icon": "🌐", "name": "Works Everywhere", "desc": "Browser extension, Microsoft Word add-in, Google Docs integration, desktop app, and mobile keyboard. Truly platform-agnostic."},
+      {"icon": "📊", "name": "Writing Stats & Goals", "desc": "Set writing goals (formal/casual, audience type) and get suggestions tailored to your specific context and purpose."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Non-native English speakers", "desc": "Grammarly is indispensable for professionals writing in English as a second language. The grammar accuracy and natural phrasing suggestions are significantly better than built-in spell checkers."},
+      {"emoji": "✅", "type": "Business professionals writing emails", "desc": "Tone detection and clarity suggestions make a real difference in professional communication. The free tier handles this well."},
+      {"emoji": "❌", "type": "Creative writers", "desc": "Grammarly's suggestions can homogenise your writing voice. If you're writing fiction or personal essays, the constant 'corrections' may do more harm than good."}
+    ],
+    "verdict_title": "Grammarly: The Writing Assistant That Actually Works",
+    "verdict_text": "Grammarly has earned its dominant market position by doing one thing exceptionally well: making your writing clearer and more professional with minimal effort. The free tier is genuinely useful — it handles basic grammar and catches embarrassing errors. Premium is where it gets interesting: full sentence rewrites, tone analysis, and plagiarism checking justify the cost for professionals who write daily. The annual plan at $12/month is reasonable. Monthly billing at $30/month is hard to justify. Our recommendation: use the free tier, and if you find yourself accepting suggestions daily, upgrade to annual Premium."
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "category": "Automation",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$19.99/month",
+    "price_note": "Free tier: 100 tasks/month. Paid from $19.99/mo",
+    "affiliate_url": "https://zapier.com",
+    "rating": 4.3,
+    "ratings_breakdown": {"Ease of Use": 4.7, "App Integrations": 4.9, "Reliability": 4.2, "Value for Money": 3.8, "Advanced Features": 3.9},
+    "pros": ["7,000+ app integrations — unmatched breadth","No-code interface anyone can use","Reliable and battle-tested for 10+ years","Multi-step Zaps handle complex workflows","Tables and Interfaces add light database features"],
+    "cons": ["Gets expensive fast — 750 tasks/month is $49.99","Task counting can be confusing and costly","Slower than native integrations","Make.com offers more power at lower price","Debugging failed Zaps can be frustrating"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "100 tasks/month, 5 Zaps, single-step Zaps only"},
+      {"name": "Starter", "price": "$19.99/mo", "features": "750 tasks/month, multi-step Zaps, filters, formatter"},
+      {"name": "Professional", "price": "$49.99/mo", "features": "2,000 tasks/month, unlimited Zaps, custom logic, webhooks"}
+    ],
+    "features": [
+      {"icon": "🔗", "name": "7,000+ Integrations", "desc": "Connect more apps than any other automation platform. If an app has an API, Zapier probably supports it."},
+      {"icon": "🧩", "name": "No-Code Zap Builder", "desc": "Build automations visually without touching code. Trigger → Action model is intuitive for non-technical users."},
+      {"icon": "🔀", "name": "Multi-Step Zaps with Logic", "desc": "Add filters, conditions, and paths to create sophisticated workflows. One trigger can branch into multiple actions."},
+      {"icon": "📋", "name": "Zapier Tables", "desc": "Built-in lightweight database that acts as both a data store and trigger source. Useful for simple CRM or inventory tracking without external tools."},
+      {"icon": "⚡", "name": "Instant Triggers", "desc": "Webhook-based triggers fire in real time (under 1 second). Most other triggers poll every 1–15 minutes depending on plan."},
+      {"icon": "🤖", "name": "AI Actions", "desc": "Use ChatGPT, Claude, and other AI models directly inside Zaps. Summarize emails, classify data, generate content — all automated."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Small businesses and solopreneurs", "desc": "Zapier is the fastest way to connect the tools you already use. If you need Gmail → Sheets → Slack notifications without hiring a developer, Zapier is the answer."},
+      {"emoji": "✅", "type": "Non-technical teams", "desc": "The no-code interface genuinely works. Marketing, sales, and operations teams can build their own automations without IT involvement."},
+      {"emoji": "❌", "type": "High-volume automation users", "desc": "At 2,000+ tasks/month, Make.com offers significantly more power at a lower price point. Zapier's task-based pricing becomes painful at scale."}
+    ],
+    "verdict_title": "Zapier: The Safe Choice for Business Automation",
+    "verdict_text": "Zapier is the most reliable no-code automation platform available. Its 7,000+ integrations mean you can connect virtually any tool combination, and the no-code interface genuinely works for non-technical users. The free tier's 100 tasks/month is barely usable for real workflows, but the Starter plan at $19.99 covers most small business needs. The elephant in the room: Make.com offers more power and flexibility at a lower price. If you're comfortable with a slightly steeper learning curve, Make wins on value. If you want the safest, most supported option with the largest community — Zapier is the right choice."
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "AI Voice",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$5/month",
+    "price_note": "Free tier: 10,000 chars/month. Starter from $5/mo",
+    "affiliate_url": "https://elevenlabs.io",
+    "rating": 4.7,
+    "ratings_breakdown": {"Voice Quality": 4.9, "Voice Cloning": 4.8, "Ease of Use": 4.5, "Value for Money": 4.4, "Languages": 4.6},
+    "pros": ["Most realistic AI voice synthesis available","Voice cloning from 1 minute of audio","29 languages with natural prosody","Generous free tier (10,000 chars/month)","Projects feature for long-form audio content"],
+    "cons": ["Voice cloning raises ethical concerns","Output quality varies by language","High-volume usage gets expensive","Commercial license requires paid plan","Occasional pronunciation errors on technical terms"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "10,000 chars/month, 3 custom voices, watermarked downloads"},
+      {"name": "Starter", "price": "$5/mo", "features": "30,000 chars/month, 10 custom voices, no watermark, commercial license"},
+      {"name": "Creator", "price": "$22/mo", "features": "100,000 chars/month, 30 voices, dubbing studio, priority queue"}
+    ],
+    "features": [
+      {"icon": "🎙️", "name": "Ultra-Realistic Text-to-Speech", "desc": "ElevenLabs produces the most natural-sounding AI voices available. Pauses, emphasis, and emotional nuance are handled better than any competitor."},
+      {"icon": "🔬", "name": "Instant Voice Cloning", "desc": "Clone any voice from a 1-minute audio sample. The result is usable for content creation immediately — the quality is genuinely unsettling."},
+      {"icon": "🌍", "name": "29 Languages", "desc": "Generate speech in 29 languages with natural-sounding accents. Particularly strong in English, Spanish, German, French, and Polish."},
+      {"icon": "📚", "name": "Projects for Long-Form Content", "desc": "Upload entire manuscripts, articles, or scripts and generate professional audiobooks or podcast narration with consistent voice and pacing."},
+      {"icon": "🎭", "name": "Voice Library", "desc": "Access a library of hundreds of pre-built voices across different genders, ages, and accents. Most useful voices are available on free and Starter plans."},
+      {"icon": "🔊", "name": "Speech-to-Speech", "desc": "Transform your voice in real time or convert uploaded audio to a different voice. Useful for dubbing, accessibility, and content localization."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Content creators and podcasters", "desc": "ElevenLabs is the fastest way to add professional narration to videos, courses, or podcasts. The Starter plan at $5/month covers most creator needs."},
+      {"emoji": "✅", "type": "Developers building voice apps", "desc": "The API is clean and well-documented. Building voice assistants, audiobook generators, or accessibility tools is significantly faster with ElevenLabs than building from scratch."},
+      {"emoji": "❌", "type": "Real-time conversation applications", "desc": "Latency is too high for real-time dialogue. For voice assistants or chatbots requiring instant responses, dedicated real-time voice APIs perform better."}
+    ],
+    "verdict_title": "ElevenLabs: The Best AI Voice Tool by a Clear Margin",
+    "verdict_text": "ElevenLabs has pulled ahead of every competitor in AI voice synthesis. The gap in voice quality between ElevenLabs and alternatives like Amazon Polly or Google TTS is immediately obvious — ElevenLabs sounds like a human, others sound like robots. The free tier's 10,000 characters per month is genuinely useful for testing and small projects. The Starter plan at $5/month removes the watermark and adds commercial licensing, making it an absurdly good value for content creators. The voice cloning feature is where it gets both impressive and ethically complex — the technology works remarkably well, and ElevenLabs has built-in consent mechanisms, but misuse potential is real. For legitimate content creation use cases, this is the tool to use."
+  },
+  {
+    "slug": "loom",
+    "name": "Loom",
+    "category": "Video Communication",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$12.50/month",
+    "price_note": "Free: 25 videos, 5 min limit. Business from $12.50/mo",
+    "affiliate_url": "https://loom.com",
+    "rating": 4.3,
+    "ratings_breakdown": {"Ease of Recording": 4.9, "Video Quality": 4.2, "AI Features": 4.0, "Value for Money": 3.9, "Team Features": 4.3},
+    "pros": ["Record and share in seconds — fastest async video tool","AI summaries and transcripts automatically generated","Works on Mac, Windows, and Chrome","No meeting needed — record once, share forever","Viewer engagement analytics"],
+    "cons": ["Free tier limited to 25 videos and 5 minutes","Business plan pricing adds up for large teams","AI transcripts occasionally misfire on accents","Video quality limited compared to dedicated tools","Atlassian acquisition has slowed innovation"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "25 videos, 5-minute limit, basic editing, 90-day storage"},
+      {"name": "Business", "price": "$12.50/user/mo (annual)", "features": "Unlimited videos, no time limit, AI features, custom branding, analytics"},
+      {"name": "Business + AI", "price": "$16/user/mo (annual)", "features": "Everything in Business plus advanced AI summaries, chapters, filler word removal"}
+    ],
+    "features": [
+      {"icon": "⚡", "name": "One-Click Recording", "desc": "Start recording your screen, camera, or both with a single click. Share the link before the recording even finishes uploading."},
+      {"icon": "🤖", "name": "AI Summaries & Transcripts", "desc": "Every Loom video automatically gets a transcript and AI-generated summary. Find any moment in a video by searching the transcript."},
+      {"icon": "✂️", "name": "Trim & Edit", "desc": "Remove filler words, awkward pauses, and mistakes without video editing software. AI identifies and removes 'um', 'uh', and silence automatically."},
+      {"icon": "📊", "name": "Viewer Analytics", "desc": "See who watched your video, how long they watched, and where they dropped off. Useful for sales follow-ups and team communication."},
+      {"icon": "💬", "name": "Comments & Reactions", "desc": "Viewers can comment at specific timestamps and react with emoji. Transforms one-way video into async conversation."},
+      {"icon": "🔗", "name": "Integrations", "desc": "Embed Loom videos in Notion, Slack, Jira, Gmail, and 50+ other tools. The Slack integration alone changes how teams communicate."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Remote and async teams", "desc": "Loom replaces a significant portion of meetings. Instead of scheduling a 30-minute call to explain something, record a 3-minute Loom and let people watch at their own pace."},
+      {"emoji": "✅", "type": "Sales teams", "desc": "Personalised video outreach gets dramatically higher response rates than text emails. Loom's viewer analytics tell you exactly who watched and for how long."},
+      {"emoji": "❌", "type": "Professional video production", "desc": "Loom is for quick async communication, not polished output. For training videos, marketing content, or anything requiring production quality, use dedicated video tools."}
+    ],
+    "verdict_title": "Loom: The Fastest Way to Replace a Meeting",
+    "verdict_text": "Loom has become the default async video communication tool for good reason — it removes every friction point from recording and sharing a video. The one-click recording, instant sharing link, and automatic AI transcripts make it genuinely faster than writing a detailed email for complex topics. The free tier's 25-video limit and 5-minute cap are restrictive for regular use, which is clearly intentional. The Business plan at $12.50/month per user is reasonable for teams but adds up quickly. For solopreneurs and freelancers, the free tier covers occasional use, and the Business plan is worth it if you record more than twice a week."
+  },
+  {
+    "slug": "gamma-app",
+    "name": "Gamma",
+    "category": "AI Presentations",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$10/month",
+    "price_note": "Free: 400 AI credits. Plus from $10/mo",
+    "affiliate_url": "https://gamma.app",
+    "rating": 4.1,
+    "ratings_breakdown": {"Speed of Creation": 4.8, "Design Quality": 4.2, "AI Content": 3.9, "Customisation": 3.6, "Value for Money": 4.1},
+    "pros": ["Generate a full presentation from a prompt in 30 seconds","Designs look professional without design skills","One-click theme changes across entire deck","Works as web pages and documents too","Much faster than PowerPoint or Google Slides"],
+    "cons": ["Less control than traditional presentation tools","AI-generated content needs fact-checking","Limited animation options","Export to PowerPoint sometimes loses formatting","Free tier limited to 400 AI credits"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "400 AI credits (roughly 2-3 presentations), unlimited manual editing"},
+      {"name": "Plus", "price": "$10/mo", "features": "Unlimited AI generations, custom fonts, remove Gamma branding, analytics"},
+      {"name": "Pro", "price": "$20/mo", "features": "Custom domains, password protection, priority support, advanced analytics"}
+    ],
+    "features": [
+      {"icon": "⚡", "name": "AI Presentation Generator", "desc": "Type a topic or paste an outline and Gamma generates a complete, designed presentation in under 30 seconds. The output is genuinely presentable without editing."},
+      {"icon": "🎨", "name": "Smart Themes", "desc": "One-click theme changes apply consistently across every slide. Colours, fonts, and layouts update automatically — no manual reformatting."},
+      {"icon": "📱", "name": "Web-Native Format", "desc": "Gamma presentations are web pages, not files. Share a link that works on any device without downloading PowerPoint or worrying about fonts."},
+      {"icon": "📄", "name": "Documents & Webpages", "desc": "Create documents and web pages with the same AI — not just presentations. Useful for memos, reports, and landing pages."},
+      {"icon": "🔄", "name": "Import & Transform", "desc": "Paste text, upload a PDF, or import from Google Docs. Gamma converts your existing content into a designed presentation automatically."},
+      {"icon": "📊", "name": "Analytics", "desc": "See how long viewers spend on each slide and where they drop off. Useful for sales decks and investor presentations."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Fast first drafts", "desc": "Gamma excels at getting from blank page to presentable draft in minutes. Use it for internal presentations, client updates, and proposals where speed matters more than perfection."},
+      {"emoji": "✅", "type": "Non-designers who need to present", "desc": "If you struggle with making PowerPoint look good, Gamma eliminates that problem entirely. The default output looks professional."},
+      {"emoji": "❌", "type": "Complex, highly customised decks", "desc": "For investor pitches, brand presentations, or anything where pixel-perfect control matters, Gamma's limited customisation will frustrate you. Use Figma or PowerPoint instead."}
+    ],
+    "verdict_title": "Gamma: The Fastest Presentation Tool You've Never Used",
+    "verdict_text": "Gamma is genuinely impressive at what it does: turning text into a professional-looking presentation faster than anything else on the market. The 30-second generation time isn't marketing fluff — you can go from blank page to shareable deck in under a minute. The output quality is surprisingly good for internal presentations and first drafts. The limitations show up when you need precise control: animations are basic, customisation is limited, and the AI content occasionally needs significant editing. At $10/month for unlimited generations, it's worth it for anyone who creates presentations regularly. Use it for speed, then refine in Google Slides if needed."
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "category": "Video & Podcast Editing",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$24/month",
+    "price_note": "Free: 1hr transcription/month. Creator from $24/mo",
+    "affiliate_url": "https://descript.com",
+    "rating": 4.4,
+    "ratings_breakdown": {"Transcription Accuracy": 4.6, "Ease of Editing": 4.5, "AI Features": 4.4, "Value for Money": 4.0, "Export Quality": 4.3},
+    "pros": ["Edit video by editing text — genuinely revolutionary workflow","Overdub AI voice clone for fixing mistakes","Remove filler words with one click","Excellent transcription accuracy","Screen recording built in"],
+    "cons": ["$24/month is steep for occasional users","Overdub voice requires significant training data","Can feel slow on long projects","Export options limited vs dedicated editors","Steep learning curve for complex edits"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "1 hour transcription/month, 720p export, watermark on some features"},
+      {"name": "Creator", "price": "$24/mo", "features": "10 hours transcription/month, 4K export, Overdub, filler word removal"},
+      {"name": "Business", "price": "$40/user/mo", "features": "Unlimited transcription, team features, custom Overdub voices, advanced publishing"}
+    ],
+    "features": [
+      {"icon": "📝", "name": "Text-Based Video Editing", "desc": "Descript transcribes your video, then lets you edit it like a Word document. Delete a sentence from the transcript and it disappears from the video."},
+      {"icon": "🎙️", "name": "Overdub AI Voice Clone", "desc": "Train Descript on your voice and fix mistakes in your recordings by typing — the AI generates your voice saying the corrected text. Works remarkably well."},
+      {"icon": "🗑️", "name": "Filler Word Removal", "desc": "Remove every 'um', 'uh', and awkward pause from a 30-minute recording in about 10 seconds. This feature alone justifies the subscription for podcasters."},
+      {"icon": "✂️", "name": "Studio Sound", "desc": "AI audio enhancement removes background noise, room echo, and breathing sounds from any recording. Transforms phone recordings into studio-quality audio."},
+      {"icon": "📱", "name": "Screen Recording", "desc": "Built-in screen recorder with webcam overlay. Record, transcribe, and edit tutorials without leaving Descript."},
+      {"icon": "🚀", "name": "Publish Directly", "desc": "Publish to YouTube, Buzzsprout, Spotify, and other platforms directly from Descript. No exporting and re-uploading required."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Podcasters and interview editors", "desc": "Descript transforms podcast editing from a technical skill into a word processing task. Removing filler words and tightening interviews that used to take hours now takes minutes."},
+      {"emoji": "✅", "type": "Online course creators", "desc": "The combination of screen recording, text-based editing, and Overdub makes course creation significantly faster. Fix a mispronounced word without re-recording the entire lesson."},
+      {"emoji": "❌", "type": "Professional video editors", "desc": "Descript isn't a replacement for Premiere Pro or DaVinci Resolve. For colour grading, complex transitions, or multi-camera editing, you need a dedicated NLE."}
+    ],
+    "verdict_title": "Descript: The Video Editor That Thinks Like a Writer",
+    "verdict_text": "Descript's text-based editing approach is one of those genuinely new ideas in software that changes how you think about a workflow. The ability to edit video by editing a transcript isn't a gimmick — it fundamentally changes what's possible for non-technical creators. Filler word removal and Studio Sound are similarly transformative for podcast and course creators. The $24/month Creator plan is worth it if you produce video or audio content regularly. The free tier's 1-hour transcription limit and lower export quality make it a preview, not a full product. For podcasters, course creators, and anyone doing regular screen recording, Descript is the most impactful tool in this list."
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "category": "Project Management",
+    "pricing_type": "FREEMIUM",
+    "price_from": "$8/month",
+    "price_note": "Free for small teams. Business from $8/user/mo",
+    "affiliate_url": "https://linear.app",
+    "rating": 4.5,
+    "ratings_breakdown": {"Speed": 4.9, "UI Design": 4.9, "Features": 4.3, "Value for Money": 4.4, "Integrations": 4.1},
+    "pros": ["Fastest and most beautiful project management UI available","Keyboard-first workflow — power users love it","Git integration that actually works well","Cycles (sprints) implementation is excellent","Free tier is genuinely usable"],
+    "cons": ["Opinionated workflow may not suit all teams","Limited reporting compared to Jira","No time tracking built in","Gantt chart view is basic","Mobile app is functional but not great"],
+    "pricing_plans": [
+      {"name": "Free", "price": "$0", "features": "250 issues, unlimited members, unlimited projects, full features"},
+      {"name": "Business", "price": "$8/user/mo", "features": "Unlimited issues, admin controls, SLA, priority support, advanced roadmaps"},
+      {"name": "Enterprise", "price": "Custom", "features": "SSO, SCIM, custom roles, dedicated support, SLA guarantees"}
+    ],
+    "features": [
+      {"icon": "⚡", "name": "Keyboard-First Speed", "desc": "Every action in Linear has a keyboard shortcut. Power users report handling their entire workflow without touching the mouse. The speed difference vs Jira is immediately obvious."},
+      {"icon": "🎨", "name": "Beautiful UI", "desc": "Linear is the best-designed project management tool available. Not just aesthetically — the information architecture is genuinely clearer than competitors."},
+      {"icon": "🔀", "name": "Git Integration", "desc": "Link issues to branches, commits, and PRs. Issue status updates automatically when code is merged. The GitHub and GitLab integrations are tighter than any competitor."},
+      {"icon": "🔄", "name": "Cycles (Sprints)", "desc": "Linear's take on sprints is more flexible than Jira's. Automatic issue carryover, velocity tracking, and cycle health indicators make sprint management genuinely useful."},
+      {"icon": "🗺️", "name": "Roadmaps", "desc": "Visual roadmaps that pull directly from your issue tracker. No maintaining a separate document — the roadmap is always in sync with actual work."},
+      {"icon": "🤖", "name": "Linear AI", "desc": "AI-powered issue triage, sub-issue generation, and duplicate detection. Not as central as other tools' AI features, but useful for large issue backlogs."}
+    ],
+    "best_for": [
+      {"emoji": "✅", "type": "Software development teams", "desc": "Linear is purpose-built for software teams. The Git integration, cycles, and keyboard-first workflow are designed for developers — not adapted from a generic PM tool."},
+      {"emoji": "✅", "type": "Teams escaping Jira", "desc": "If your team finds Jira slow and overcomplicated, Linear is the obvious migration target. The free tier handles teams up to 250 issues without restriction."},
+      {"emoji": "❌", "type": "Non-technical teams and complex projects", "desc": "Linear's opinionated workflow works best for software development. Marketing, HR, or agency project management with complex dependencies may need more flexibility than Linear provides."}
+    ],
+    "verdict_title": "Linear: The Project Management Tool Engineers Actually Enjoy",
+    "verdict_text": "Linear has achieved something rare in B2B software: a product that people genuinely enjoy using. The speed, the design, and the keyboard-first workflow create a fundamentally different experience from Jira or Asana. For software development teams, it's hard to argue against it — the Git integration alone makes it more useful than alternatives. The free tier is remarkably generous at 250 issues with full features, making it accessible for small teams and startups. The Business plan at $8/user/month is competitive. The main limitation is Linear's opinionated approach — it works best if your workflow fits its model. If you need complex custom fields, advanced reporting, or non-technical team workflows, look at Notion or Asana instead."
   }
 ]
