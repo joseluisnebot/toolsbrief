@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  TOOLSBRIEF — CAJA REGISTRADORA (enlaces de afiliado)
+# ─────────────────────────────────────────────────────────────────────────────
+#
+#  ESTE ES EL ÚNICO FICHERO QUE HAY QUE TOCAR PARA GANAR DINERO.
+#
+#  Todas las páginas del sitio enlazan a /go/<herramienta>. Este fichero decide
+#  a dónde va cada uno de esos enlaces. Cambiando UNA línea aquí, se actualiza
+#  ese enlace en TODAS las páginas a la vez.
+#
+#  CÓMO ACTIVAR EL DINERO
+#  1. Date de alta en el programa de afiliados de la herramienta (ver columna).
+#  2. Ellos te dan una URL de seguimiento con tu ID. Por ejemplo:
+#        https://partner.canva.com/c/1234567/xxxxx
+#        https://jasper.ai/?fpr=tu-usuario
+#  3. Sustituye la URL de la derecha por la tuya. Guarda y despliega.
+#  4. A partir de ese momento, cada clic queda atribuido a tu cuenta.
+#
+#  ⚠️ Mientras la URL sea la "oficial" de abajo, el enlace FUNCIONA para el
+#     usuario pero NO GENERA NINGÚN INGRESO. Son marcadores de posición.
+#
+#  Formato:  /go/<slug>   <url-destino>   302
+#  (302 = temporal, es lo correcto para enlaces de afiliado; nunca 301)
+#
+#  Estado:   ⬜ pendiente de alta   ✅ afiliado real activo
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Escritura y contenido con IA ──────────────────────────────────────────────
+# ⬜ Jasper — programa propio (jasper.ai/partners) · PartnerStack
+/go/jasper        https://www.jasper.ai/                       302
+# ⬜ Copy.ai — PartnerStack
+/go/copy-ai       https://www.copy.ai/                         302
+# ⬜ Grammarly — programa propio · Impact
+/go/grammarly     https://www.grammarly.com/                   302
+# ⬜ ChatGPT / OpenAI — NO tiene programa de afiliados (dejar directo)
+/go/chatgpt       https://chat.openai.com/                     302
+# ⬜ Perplexity — no tiene programa público (revisar)
+/go/perplexity    https://www.perplexity.ai/                   302
+
+# ── SEO ───────────────────────────────────────────────────────────────────────
+# ⬜ Semrush — programa propio (Impact) · buena comisión recurrente
+/go/semrush       https://www.semrush.com/                     302
+# ⬜ Surfer SEO — programa propio · PartnerStack
+/go/surfer-seo    https://surferseo.com/                       302
+
+# ── Productividad y gestión ───────────────────────────────────────────────────
+# ⬜ ClickUp — programa propio (clickup.com/affiliate)
+/go/clickup       https://clickup.com/                         302
+# ⬜ Notion — programa de afiliados propio
+/go/notion        https://www.notion.so/                       302
+# ⬜ Linear — sin programa conocido (revisar)
+/go/linear        https://linear.app/                          302
+
+# ── Automatización ────────────────────────────────────────────────────────────
+# ⬜ Zapier — programa propio (partners)
+/go/zapier        https://zapier.com/                          302
+# ⬜ Make — programa propio (make.com/en/partner-program)
+/go/make          https://www.make.com/en                      302
+
+# ── Diseño e imagen ───────────────────────────────────────────────────────────
+# ⬜ Canva — Impact (partner.canva.com)
+/go/canva         https://www.canva.com/                       302
+# ⬜ Midjourney — sin programa de afiliados
+/go/midjourney    https://www.midjourney.com/                  302
+# ⬜ Gamma — programa propio (revisar)
+/go/gamma         https://gamma.app/                           302
+
+# ── Audio, vídeo y transcripción ──────────────────────────────────────────────
+# ⬜ Otter.ai — programa propio
+/go/otter-ai      https://otter.ai/                            302
+# ⬜ Descript — PartnerStack
+/go/descript      https://www.descript.com/                    302
+# ⬜ ElevenLabs — programa propio
+/go/elevenlabs    https://elevenlabs.io/                       302
+# ⬜ Loom — programa propio (revisar)
+/go/loom          https://www.loom.com/                        302
